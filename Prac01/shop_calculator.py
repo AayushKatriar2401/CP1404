@@ -4,7 +4,7 @@ Shop Calculator
 final_price = 0
 no_items = int(input("Number of Items: "))
 while no_items < 0:
-   print("Invalid Value Entered!")
+    print("Invalid Value Entered!")
 
 no_items = int(input("Number of Items: "))
 for i in range(no_items):
