@@ -1,0 +1,13 @@
+BoxLayout:
+    orientation: 'vertical'
+    TextInput:
+        id: '7'
+        font_size: 48
+        multiline: False
+    Button:
+        text: 'Square'
+        on_press: app.handle_calculate(input_number.txt)
+    Label:
+       id: output_label
+       font_size: 48
+       color: (0, 1, 1, 1)
